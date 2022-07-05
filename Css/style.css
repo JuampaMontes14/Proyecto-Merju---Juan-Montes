@@ -432,3 +432,15 @@ footer{
     }
 
 }
+
+/* Animacion y transformacion */
+
+.foto-lampara {
+    filter:hue-rotate(2);
+    transition: ease-in .4s;
+}
+
+.foto-lampara:hover {
+    transform: scale(1.5)
+}
+
