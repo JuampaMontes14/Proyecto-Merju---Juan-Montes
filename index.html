@@ -13,36 +13,82 @@
     <script>
       new WOW ().init();
     </script>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 </head>
-
-<body>
-      <a name="arriba"></a>
-   <div id="padre">      
+  <a name="arriba"></a>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12 col-sm-12 col-md-12">
          <header>
-            <div class="grid-header"> <!--Grilla 1 header-->
-                <!-- buscar una imagen sin fondo -->
-                <div class="wow animate__animated animate__bounce">
-                  <img src="logo/Logo Vector_page-0001.jpg" alt="Logo" width="150" class="centrado">
+           <div class="grid-header">
+               
+               <div class="wow animate__animated animate__bounce">
+                 <img src="logo/Logo Vector_page-0001.jpg" alt="Logo" width="150" class="centrado">	
+              </div>
+              <nav class="navbar navbar-expand-lg bg-burlywood">
+               <div class="container">
+                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                   <span class="navbar-toggler-icon"></span>
+                 </button>
+                 <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                   <ul class="navbar-nav">
+                     <li class="nav-item">
+                       <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                     </li>
+                     <li class="nav-item">
+                       <a class="nav-link active" href="quienes_somos.html">Quienes somos</a>
+                     </li>
+                     <li class="nav-item">
+                       <a class="nav-link active" href="producto.html">Productos</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link active" href="contacto.html">Contacto</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link active" href="preguntas_frecuentes.html">Preguntas frecuentes</a>
+                     </li>
+                   </ul>
+                 </div>
                </div>
-               <nav>
-                  <ul>
-                     <li><a href="index.html">Inicio</a></li>
-                     <li><a href="quienes_somos.html">Quienes somos</a></li>
-                     <li><a href="producto.html">Productos</a></li>
-                     <li><a href="contacto.html">Contacto</a></li>
-                     <li><a href="preguntas_frecuentes.html">Preguntas frecuentes</a></li>
-                  </ul>
-               </nav>
-            </div> <!--Grilla 1 header-->
+             </nav>
+           </div>
          </header>
-
+        </div>
+      </div>
+        
       <br>
-
+      <div class="row">
+        <div class="col-12 col-sm-12 col-md-12">
          <main>
             <div class="grid-principal"> <!--Grilla 2 main-->
-               <div class="banner-principal">
-                  BANNER
-               </div>
+
+               <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                  <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  </div>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="../Foto_merju/Fotos Merjú/1200 x 358.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="../Foto_merju/Fotos Merjú/1200 x 358.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="..." class="d-block w-100" alt="...">
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+
                <div class="descripcion">
                   <p class="wow animate__animated animate__lightSpeedInLeft">
                   <!--Agregra una descripcion de nuestros productos y material que utilizamos.-->
@@ -51,26 +97,52 @@
                </div>
                
                <hr class="linea1">
+
                  <!--Agregar fotos de nuestros productos que te lleven a la pagina de productos-->
 
-               <div class="Grid-fotos">
-                  <div class="foto1">
-                    Foto1
+               <!-- <div class="Grid-fotos">
+                    <img src="../Foto_merju/Fotos Merjú/Bancos/20220422_113201.jpg" alt="" width="250" height="300">
+                     <img src="../Foto_merju/Fotos Merjú/Canastos/20220410_211556_mfnr.jpg" alt="" width="250" height="300">
+                     <img src="../Foto_merju/Fotos Merjú/Cuadros/IMG_6788_jpg.JPG" alt="" width="250" height="300">
+                     <img src="../Foto_merju/Fotos Merjú/Lamparas/IMG_0001_jpg.jpg" alt="" width="250" height="300">
+               </div> -->
+               
+               <div class="container1-fluid">
+                  <div class="row">
+                     <div class="col-md-3 col-sm-6 col-6">
+                     <img src="../Foto_merju/Fotos Merjú/Bancos/20220422_113201.jpg" alt="" width="250" height="300">
+                     </div>
+                     <div class="col-md-3 col-sm-6 col-6">
+                     <img src="../Foto_merju/Fotos Merjú/Canastos/20220410_211556_mfnr.jpg" alt="" width="250" height="300">
+                     </div>
+                     <div class="col-md-3 col-sm-6 col-6">
+                     <img src="../Foto_merju/Fotos Merjú/Cuadros/IMG_6788_jpg.JPG" alt="" width="250" height="300">
+                     </div>
+                     <div class="col-md-3 col-sm-6 col-6">
+                     <img src="../Foto_merju/Fotos Merjú/Lamparas/IMG_0001_jpg.jpg" alt="" width="250" height="300">
+                     </div>
                   </div>
-                  <div class="foto1">
-                    Foto2
-                  </div>
-                  <div class="foto1">
-                     Foto3
-                  </div>
-                  <div class="foto1">
-                    Foto4
-                  </div>
-               </div>
+                </div>
 
                   <hr class="linea1">
 
                   <h1 class="index-novedades">Novedades</h1>
+
+                  <div class="container1-fluid">
+                    <div class="row">
+                       <div class="col-md-4 col-sm-6 col-6">
+                       <img src="../Foto_merju/Fotos Merjú/Bancos/20220422_113201.jpg" alt="" width="250" height="300">
+                       </div>
+                       <div class="col-md-4 col-sm-6 col-6">
+                       <img src="../Foto_merju/Fotos Merjú/Canastos/20220410_211556_mfnr.jpg" alt="" width="250" height="300">
+                       </div>
+                       <div class="col-md-4 d-sm-none d-md-block d-none d-sm-block">
+                       <img src="../Foto_merju/Fotos Merjú/Cuadros/IMG_6788_jpg.JPG" alt="" width="250" height="300">
+                       </div>
+                    </div>
+                  </div>
+
+                  <!--<h1 class="index-novedades">Novedades</h1>
                   <div class="Grid-novedades">
                      <div class="foto-novedades">
                      Foto1
@@ -79,9 +151,9 @@
                      Foto2
                      </div>
                      <div class="foto-novedades1">
-                        Foto3
+                     Foto3
                      </div>
-                  </div>
+                  </div>-->
 
                   <hr class="linea1">
 
@@ -97,26 +169,33 @@
 
                   <br>
             </div> <!--Grilla 2 main-->     
-         </main>
+          </main>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-sm-12 col-md-12">
+          <footer>
+              <div class="   "> <!--Grilla 3 footer-->
+              <div class="botonirarriba">
+                 <a href="#arriba"><img src="logo/punta-de-flecha-hacia-arriba.png" alt="Ir arriba"></a>
+              </div>
+                <img src="logo/Logo Vector_page-0001.jpg" alt="Logo" width="100">
 
-      <footer>
-         <div class="   "> <!--Grilla 3 footer-->
-            <div class="botonirarriba">
-               <a href="#arriba"><img src="logo/punta-de-flecha-hacia-arriba.png" alt="Ir arriba"></a>
-            </div>
-               <img src="logo/Logo Vector_page-0001.jpg" alt="Logo" width="100">
+                 <br>
 
-               <br>
+                 <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="quienes_somos.html">Quienes somos</a></li>
+                    <li><a href="producto.html">Productos</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                    <li><a href="preguntas_frecuentes.html">Preguntas frecuentes</a></li>
+                  </ul>
+            </div> <!--Grilla 3 footer-->    
+          </footer>
+        </div>  
+      </div>  
+    </div>    
 
-               <ul>
-                  <li><a href="index.html">Inicio</a></li>
-                  <li><a href="quienes_somos.html">Quienes somos</a></li>
-                  <li><a href="producto.html">Productos</a></li>
-                  <li><a href="contacto.html">Contacto</a></li>
-                  <li><a href="preguntas_frecuentes.html">Preguntas frecuentes</a></li>
-               </ul>
-         </div> <!--Grilla 3 footer-->        
-      </footer>
-   </div> 
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>
