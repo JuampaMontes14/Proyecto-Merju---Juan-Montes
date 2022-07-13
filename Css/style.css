@@ -22,12 +22,13 @@ header{
 }
 
 img{
-    margin: 5px;
+    margin: 2px;
 }
 
-li{
-    margin: 5px;
+.nav-item2{
+    margin: 0px;
 }
+
 
 ul{
     display: flex;
@@ -145,6 +146,10 @@ footer{
     display: flex;
     justify-content:flex-end;
     align-items:center;
+}
+
+.nav-item1{
+    margin: 5px;
 }
 
 /* Css main-productos */
@@ -455,3 +460,6 @@ footer{
     transform: scale(1.5)
 }
 
+.div-boton{
+    align-items: flex-end;
+}
