@@ -1,34 +1,56 @@
-
-
-.body{
-    background-color: bige;
+.body {
+  background-color: bige;
 }
 
 /* Comienzo del css header */
+header {
+  text-align: center;
+  background-color: burlywood;
+  border: 1px solid black;
+}
+header img {
+  margin: 4px;
+}
+header .div.header {
+  background-color: burlywood;
+}
+header .navbar {
+  z-index: 1;
+}
+header ul {
+  display: flex;
+  color: black;
+  text-align: center;
+  list-style-type: none;
+  margin: 0px;
+}
+header ul .nav-item2 {
+  margin: 0px;
+  padding: 0px;
+}
 
+/*
 header{
     text-align: center;
     background-color: burlywood;
     border: 1px solid black;
+    .navbar{
+        z-index: 1;
+    }
 }
 
 .navbar{
     z-index: 1;
 }
 
-.div.header{
-    background-color: burlywood;
-
-}
-
 img{
     margin: 2px;
 }
 
+
 .nav-item2{
     margin: 0px;
 }
-
 
 ul{
     display: flex;
@@ -38,29 +60,24 @@ ul{
     justify-content: center;
     margin: 20px;
 }
-
-
+*/
 /* Comienzo del css main - Index */
-
-.descripcion{
-    display: grid;
-    grid-template-columns: 50% auto;
-}
-
-.descripcion{
-    font-size: 120%;
-    width: 100%;
-    height: auto;
-    align-items: center;
-    justify-content: center;
+.descripcion {
+  display: grid;
+  grid-template-columns: 50% auto;
+  font-size: 120%;
+  width: 100%;
+  height: auto;
+  align-items: center;
+  justify-content: center;
 }
 
 #img1 {
-    width: 300px;
-    height: 350px;
-    justify-self: center;
-    text-align: center;
-    margin: 20px;
+  width: 300px;
+  height: 350px;
+  justify-self: center;
+  text-align: center;
+  margin: 5px;
 }
 
 /* .Grid-fotos{
@@ -73,7 +90,6 @@ ul{
     margin: 15px;
     padding: 30px;
 } */
-
 /* .foto1 {
     width: 250px;
     height: 300px;
@@ -84,23 +100,27 @@ ul{
     line-height: 150px;
     font-size: 50px;
 } */
-
-.linea1{
-    width: 100%;
-    height: 2px;
-    background-color:burlywood
+.linea1 {
+  width: 100%;
+  height: 2px;
+  background-color: burlywood;
 }
 
+main .container1-fluid {
+  text-align: center;
+}
+main .index-novedades {
+  font-size: 20px;
+  text-align: center;
+}
+
+/*
 .index-novedades{
     font-size: 20px;
     text-align: center;
 }
 
-.container1-fluid{
-    text-align: center;
-}
-
-/*.Grid-novedades{
+.Grid-novedades{
     display: grid;
     grid-template-columns: auto auto auto;
     text-align: center;
@@ -118,24 +138,41 @@ ul{
     margin-left: 80px;
 }
 */
-.newslettermain{
-    text-align: center;
+.newslettermain {
+  text-align: center;
+}
+.newslettermain .formindex {
+  display: flex;
+  justify-content: center;
 }
 
+/*
 .formindex{
     display: flex;
     justify-content: center;
 }
-
-
+*/
 /* Css footer */
-
-footer{
-    text-align: center;
-    background-color: burlywood;
-    border: 1px solid black;
+footer {
+  text-align: center;
+  background-color: burlywood;
+  border: 1px solid black;
+}
+footer .nav-item1 {
+  margin: 5px;
+}
+footer .botonirarriba {
+  grid-area: botonpiedepagina;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+footer .botonirarriba img {
+  width: 30px;
+  height: 30px;
 }
 
+/*
 .botonirarriba img{
     width: 30px;
     height: 30px;
@@ -147,37 +184,48 @@ footer{
     justify-content:flex-end;
     align-items:center;
 }
-
-.nav-item1{
-    margin: 5px;
+*/
+.nav-item1 {
+  margin: 5px;
 }
 
 /* Css main-productos */
-
-.productos {
-    width: 250px;
-    height: 300px;
-    border: 4px solid black;
-    background-color: white;
-    margin: 8px;
-    padding: auto;
-    line-height: 150px;
-    font-size: 50px;
-    text-align: center;
-    margin-left: 25px;
+.main-productos .container1-fluid {
+  margin: 15px;
+  line-height: 150px;
+  margin-left: 25px;
+}
+.main-productos select {
+  width: 100%;
+  height: 30px;
+}
+.h1-productos {
+  font-size: 15px;
 }
 
+.main-productos .buscador {
+  text-align: right;
+}
+.main-productos .pagination {
+  justify-content: center;
+}
+
+/*
 .grid-productos{
     display: grid;
     grid-template-columns: auto auto auto auto;
     grid-template-rows: auto auto auto auto;
 }
 
+
 select{
     width: 100%;
     height: 30px;
 }
 
+
+
+@at-root
 .h1-productos{
     font-size: 15px;
 }
@@ -186,32 +234,32 @@ select{
     text-align: right;
 }
 
+*/
 /* Css Mian - Preguntas Frecuentes */
-
-.h1-preguntas{
-    text-align: center;
-    text-decoration: underline;
+main .h1-preguntas {
+  text-align: center;
+  text-decoration: underline;
 }
-
-.preguntas-frecuentes{
-    font-size: 20px;
-    width: auto;
-    height: auto;
-    border: 1.5px solid black;
+main .preguntas-frecuentes {
+  font-size: 20px;
+  width: auto;
+  height: auto;
+  border: 1.5px solid black;
 }
 
 /* Css Main - Quines Somos */
-
-.divqsomos{
-    width: auto;
-    height: auto;
-    border: 4px solid burlywood;
-    margin: 8px;
-    padding: auto;
+main .divqsomos {
+  width: auto;
+  height: auto;
+  border: 4px solid burlywood;
+  margin: 8px;
+  padding: auto;
 }
-
-.pqsomos{
-    font-size: 20px;
+main .divqsomos .descrp-qsomos {
+  text-decoration: underline;
+}
+main .divqsomos .pqsomos {
+  font-size: 20px;
 }
 
 /* Grilla 
@@ -237,229 +285,192 @@ footer{
 }
 
 */
-
 /*Comienzo media Queri*/
-
-
-@media screen and (max-width: 720px){
-
-    .banner-principal{
-        width: auto;
-        height: 250px;
-        border: 4px solid black;
-        background-color: white;
-        text-align: center;
-        line-height: 150px;
-        font-size: 50px;
-    }
-
-    .descripcion{
-        display: grid;
-        grid-template-columns: 50% auto;
-    }
-    
-    .descripcion{
-        font-size: 80%;
-        height: auto;
-        align-items: center;
-        justify-content: center;
-    }
-    
-    #img1 {
-        width: 150px;
-        height: 175px;
-        justify-self: center;
-        text-align: center;
-        margin: 20px;
-    }
-
-    .Grid-fotos{
-        display: grid;
-        grid-template-columns: auto auto;
-        grid-template-rows: auto auto;
-        text-align: center;
-    }
-    
-    .foto1 {
-        width: 200px;
-        height: 250px;
-        border: 4px solid black;
-        background-color: white;
-        font-size: 50px;
-        margin-left: 80px;
-
-    }
-
-    .Grid-novedades{
-        display: grid;
-        grid-template-columns: auto auto none;
-        text-align: center;
-    }
-    
-    .foto-novedades{
-        width: 200px;
-        height: 250px;
-        border: 4px solid black;
-        background-color: white;
-        margin: 8px;
-        padding: auto;
-        font-size: 50px;
-        margin-left: 80px;
-    }
-
-    .foto-novedades1{
-        display: none;
-    }
-
-    .productos {
-        width: 200px;
-        height: 250px;
-        border: 4px solid black;
-        background-color: white;
-        margin: 8px;
-        padding: auto;
-        line-height: 150px;
-        font-size: 30px;
-        text-align: center;
-        margin-left: 25px;
-    }
-    
-    .grid-productos{
-        display: grid;
-        grid-template-columns: auto auto;
-        grid-template-rows: auto auto;
-    }
-
-    .texarea{
-        width: 80%;
-    }
-
+@media screen and (max-width: 720px) {
+  .banner-principal {
+    width: auto;
+    height: 250px;
+    border: 4px solid black;
+    background-color: white;
+    text-align: center;
+    line-height: 150px;
+    font-size: 50px;
+  }
+  .descripcion {
+    display: grid;
+    grid-template-columns: 50% auto;
+  }
+  .descripcion {
+    font-size: 80%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+  }
+  #img1 {
+    width: 150px;
+    height: 175px;
+    justify-self: center;
+    text-align: center;
+    margin: 20px;
+  }
+  .Grid-fotos {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    text-align: center;
+  }
+  .foto1 {
+    width: 200px;
+    height: 250px;
+    border: 4px solid black;
+    background-color: white;
+    font-size: 50px;
+    margin-left: 80px;
+  }
+  .Grid-novedades {
+    display: grid;
+    grid-template-columns: auto auto none;
+    text-align: center;
+  }
+  .foto-novedades {
+    width: 200px;
+    height: 250px;
+    border: 4px solid black;
+    background-color: white;
+    margin: 8px;
+    padding: auto;
+    font-size: 50px;
+    margin-left: 80px;
+  }
+  .foto-novedades1 {
+    display: none;
+  }
+  .productos {
+    width: 200px;
+    height: 250px;
+    border: 4px solid black;
+    background-color: white;
+    margin: 8px;
+    padding: auto;
+    line-height: 150px;
+    font-size: 30px;
+    text-align: center;
+    margin-left: 25px;
+  }
+  .grid-productos {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+  }
+  .texarea {
+    width: 80%;
+  }
 }
-
-@media screen and (max-width: 360px){
-
-    img{
-        margin: 2px;
-        width: 100px;
-    }
-
-    li{
-        margin: 2px;
-        font-size: 10px;
-    }
-    
-    ul{
-        display: flex;
-        color: black;
-        text-align: center;
-        list-style-type: none;
-        justify-content: center;
-    }
-
-    .banner-principal{
-        width: auto;
-        height: 250px;
-        border: 4px solid black;
-        background-color: white;
-        text-align: center;
-        line-height: 150px;
-        font-size: 50px;
-    }
-
-    .descripcion{
-        display: grid;
-        grid-template-columns: 50%;
-    }
-    
-    .descripcion{
-        font-size: 60%;
-        height: 80%;
-        align-items: center;
-        justify-content: center;
-    }
-    
-    #img1 {
-        width: 150px;
-        height: 175px;
-        justify-self: center;
-        text-align: center;
-        margin: 20px;
-    }
-
-    .Grid-fotos{
-        display: grid;
-        grid-template-columns: auto auto;
-        grid-template-rows: auto auto;
-        text-align: center;
-    }
-    
-    .foto1 {
-        width: 100px;
-        height: 150px;
-        border: 4px solid black;
-        background-color: white;
-        font-size: 30px;
-        margin-left: 40px;
-
-    }
-
-    .Grid-novedades{
-        display: grid;
-        grid-template-columns: auto auto none;
-        text-align: center;
-    }
-    
-    .foto-novedades{
-        width: 100px;
-        height: 150px;
-        border: 4px solid black;
-        background-color: white;
-        margin: 8px;
-        padding: auto;
-        font-size: 30px;
-        margin-left: 40px;
-    }
-
-    .foto-novedades1{
-        display: none;
-    }
-
-    .productos {
-        width: 100px;
-        height: 150px;
-        border: 4px solid black;
-        background-color: white;
-        margin: 8px;
-        padding: auto;
-        line-height: 150px;
-        font-size: 15px;
-        text-align: center;
-        margin-left: 25px;
-    }
-    
-    .grid-productos{
-        display: grid;
-        grid-template-columns: auto auto;
-        grid-template-rows: auto auto;
-    }
-
-    .texarea{
-        width: 80%;
-    }
-
+@media screen and (max-width: 360px) {
+  img {
+    margin: 2px;
+    width: 100px;
+  }
+  li {
+    margin: 2px;
+    font-size: 10px;
+  }
+  ul {
+    display: flex;
+    color: black;
+    text-align: center;
+    list-style-type: none;
+    justify-content: center;
+  }
+  .banner-principal {
+    width: auto;
+    height: 250px;
+    border: 4px solid black;
+    background-color: white;
+    text-align: center;
+    line-height: 150px;
+    font-size: 50px;
+  }
+  .descripcion {
+    display: grid;
+    grid-template-columns: 50%;
+  }
+  .descripcion {
+    font-size: 60%;
+    height: 80%;
+    align-items: center;
+    justify-content: center;
+  }
+  #img1 {
+    width: 150px;
+    height: 175px;
+    justify-self: center;
+    text-align: center;
+    margin: 20px;
+  }
+  .Grid-fotos {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    text-align: center;
+  }
+  .foto1 {
+    width: 100px;
+    height: 150px;
+    border: 4px solid black;
+    background-color: white;
+    font-size: 30px;
+    margin-left: 40px;
+  }
+  .Grid-novedades {
+    display: grid;
+    grid-template-columns: auto auto none;
+    text-align: center;
+  }
+  .foto-novedades {
+    width: 100px;
+    height: 150px;
+    border: 4px solid black;
+    background-color: white;
+    margin: 8px;
+    padding: auto;
+    font-size: 30px;
+    margin-left: 40px;
+  }
+  .foto-novedades1 {
+    display: none;
+  }
+  .productos {
+    width: 100px;
+    height: 150px;
+    border: 4px solid black;
+    background-color: white;
+    margin: 8px;
+    padding: auto;
+    line-height: 150px;
+    font-size: 15px;
+    text-align: center;
+    margin-left: 25px;
+  }
+  .grid-productos {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+  }
+  .texarea {
+    width: 80%;
+  }
 }
-
 /* Animacion y transformacion */
-
 .foto-lampara {
-    filter:hue-rotate(2);
-    transition: ease-in .4s;
+  filter: hue-rotate(2);
+  transition: ease-in 0.4s;
 }
 
 .foto-lampara:hover {
-    transform: scale(1.5)
+  transform: scale(1.5);
 }
 
-.div-boton{
-    align-items: flex-end;
-}
+.div-boton {
+  align-items: flex-end;
+}/*# sourceMappingURL=style.css.map */
