@@ -1,0 +1,12 @@
+$vista: escritorio;
+
+@if ($vista == escritorio){
+    main {
+        background-color: beige;
+    }
+}
+@else {
+    main {
+        background-color: rgb(201, 201, 190);
+    }
+}

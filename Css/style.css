@@ -1,5 +1,39 @@
-.body {
-  background-color: bige;
+main {
+  background-color: beige;
+}
+
+/*EACH*/
+.black {
+  color: black;
+}
+
+.red {
+  color: red;
+}
+
+.white {
+  color: white;
+}
+
+/*MAPS*/
+.facebook {
+  color: blue;
+}
+
+.instagram {
+  color: red;
+}
+
+.twitter {
+  color: lightblue;
+}
+
+.whatsapp {
+  color: green;
+}
+
+.mail {
+  color: yellow;
 }
 
 /* Comienzo del css header */
@@ -10,9 +44,6 @@ header {
 }
 header img {
   margin: 4px;
-}
-header .div.header {
-  background-color: burlywood;
 }
 header .navbar {
   z-index: 1;
@@ -29,38 +60,6 @@ header ul .nav-item2 {
   padding: 0px;
 }
 
-/*
-header{
-    text-align: center;
-    background-color: burlywood;
-    border: 1px solid black;
-    .navbar{
-        z-index: 1;
-    }
-}
-
-.navbar{
-    z-index: 1;
-}
-
-img{
-    margin: 2px;
-}
-
-
-.nav-item2{
-    margin: 0px;
-}
-
-ul{
-    display: flex;
-    color: black;
-    text-align: center;
-    list-style-type: none;
-    justify-content: center;
-    margin: 20px;
-}
-*/
 /* Comienzo del css main - Index */
 .descripcion {
   display: grid;
@@ -80,26 +79,6 @@ ul{
   margin: 5px;
 }
 
-/* .Grid-fotos{
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-}
-
-.Grid-fotos{
-    text-align: center;
-    margin: 15px;
-    padding: 30px;
-} */
-/* .foto1 {
-    width: 250px;
-    height: 300px;
-    border: 4px solid black;
-    background-color: white;
-    margin: 15px;
-    text-align: center;
-    line-height: 150px;
-    font-size: 50px;
-} */
 .linea1 {
   width: 100%;
   height: 2px;
@@ -114,30 +93,6 @@ main .index-novedades {
   text-align: center;
 }
 
-/*
-.index-novedades{
-    font-size: 20px;
-    text-align: center;
-}
-
-.Grid-novedades{
-    display: grid;
-    grid-template-columns: auto auto auto;
-    text-align: center;
-}
-
-.foto-novedades , .foto-novedades1{
-    width: 250px;
-    height: 300px;
-    border: 4px solid black;
-    background-color: white;
-    margin: 8px;
-    padding: auto;
-    line-height: 150px;
-    font-size: 50px;
-    margin-left: 80px;
-}
-*/
 .newslettermain {
   text-align: center;
 }
@@ -146,12 +101,6 @@ main .index-novedades {
   justify-content: center;
 }
 
-/*
-.formindex{
-    display: flex;
-    justify-content: center;
-}
-*/
 /* Css footer */
 footer {
   text-align: center;
@@ -172,19 +121,6 @@ footer .botonirarriba img {
   height: 30px;
 }
 
-/*
-.botonirarriba img{
-    width: 30px;
-    height: 30px;
-}
-
-.botonirarriba{
-    grid-area: botonpiedepagina;
-    display: flex;
-    justify-content:flex-end;
-    align-items:center;
-}
-*/
 .nav-item1 {
   margin: 5px;
 }
@@ -210,41 +146,20 @@ footer .botonirarriba img {
   justify-content: center;
 }
 
-/*
-.grid-productos{
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    grid-template-rows: auto auto auto auto;
-}
-
-
-select{
-    width: 100%;
-    height: 30px;
-}
-
-
-
-@at-root
-.h1-productos{
-    font-size: 15px;
-}
-
-.buscador{
-    text-align: right;
-}
-
-*/
 /* Css Mian - Preguntas Frecuentes */
 main .h1-preguntas {
   text-align: center;
   text-decoration: underline;
 }
 main .preguntas-frecuentes {
+  border: 1.5px solid black;
   font-size: 20px;
+}
+main h2 {
+  font-size: 30px;
   width: auto;
   height: auto;
-  border: 1.5px solid black;
+  text-decoration: underline;
 }
 
 /* Css Main - Quines Somos */
@@ -262,6 +177,7 @@ main .divqsomos .pqsomos {
   font-size: 20px;
 }
 
+/* Css Main - Contacto */
 /* Grilla 
 
 header{
