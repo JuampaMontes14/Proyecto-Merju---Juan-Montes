@@ -1,0 +1,10 @@
+@mixin h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+@mixin h2 {
+    font-size: 30px;
+    width: auto;
+    height: auto;
+    text-decoration: underline;
+}
