@@ -1,20 +1,10 @@
 @import "variables", "condicionales", "bucles", "maps", "mixins";
 
-.color-principal{
-    background-color: rgb(255, 240, 221);
-}
-
-#pantalla{
-    padding-right: 0%;
-    padding-left: 0%;
-}
-
 /* Comienzo del css header */
 
 header{
     text-align: center;
     background-color: $color-principal;
-    border: 1px solid black;
     img{
         margin: 4px;
     }
@@ -60,15 +50,9 @@ header{
     background-color:$color-principal;
 }
 
-#espacio-fotos{
-    padding-bottom: 25px;
-}
-
 main{
     .container1-fluid{
         text-align: center;
-        padding-left: 20px;
-        padding-right: 20px;
     }
         .index-novedades{
             font-size: 20px;
@@ -113,8 +97,9 @@ footer{
 
 .main-productos{
     .container1-fluid{
-        padding-left: 20px;
-        padding-right: 20px;
+        margin: 15px;
+        line-height: 150px;
+        margin-left: 25px;
     }
     select{
         width: 100%;
@@ -132,6 +117,10 @@ footer{
     }
 }
 
+.formprdocuto{
+    max-width: 20%;
+}
+
 /* Css Mian - Preguntas Frecuentes */
 
 main{
@@ -140,6 +129,7 @@ main{
     }
     .preguntas-frecuentes{
         font-size: 20px;
+        text-align: center;
     }
     h2{
         @include h2;
@@ -167,6 +157,13 @@ main{
 
 /* Css Main - Contacto */
 
+.maincontacto{
+    padding: 30px;
+}
+
+.olcontacto{
+    list-style-type: none;
+}
 
 /* Grilla 
 
@@ -192,7 +189,7 @@ footer{
 
 */
 
-/*Comienzo media Queri */
+/*Comienzo media Queri*/
 
 
 @media screen and (max-width: 720px){

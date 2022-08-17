@@ -1,14 +1,7 @@
-/*
-@if ($vista == escritorio){
-    main {
-        background-color: beige;
-    }
+main {
+  background-color: beige;
 }
-@else {
-    main {
-        background-color: rgb(201, 201, 190);
-    }
-}*/
+
 /*EACH*/
 .black {
   color: black;
@@ -43,20 +36,10 @@
   color: yellow;
 }
 
-.color-principal {
-  background-color: rgb(255, 240, 221);
-}
-
-#pantalla {
-  padding-right: 0%;
-  padding-left: 0%;
-}
-
 /* Comienzo del css header */
 header {
   text-align: center;
   background-color: burlywood;
-  border: 1px solid black;
 }
 header img {
   margin: 4px;
@@ -101,14 +84,8 @@ header ul .nav-item2 {
   background-color: burlywood;
 }
 
-#espacio-fotos {
-  padding-bottom: 25px;
-}
-
 main .container1-fluid {
   text-align: center;
-  padding-left: 20px;
-  padding-right: 20px;
 }
 main .index-novedades {
   font-size: 20px;
@@ -149,8 +126,9 @@ footer .botonirarriba img {
 
 /* Css main-productos */
 .main-productos .container1-fluid {
-  padding-left: 20px;
-  padding-right: 20px;
+  margin: 15px;
+  line-height: 150px;
+  margin-left: 25px;
 }
 .main-productos select {
   width: 100%;
@@ -167,6 +145,10 @@ footer .botonirarriba img {
   justify-content: center;
 }
 
+.formprdocuto {
+  max-width: 20%;
+}
+
 /* Css Mian - Preguntas Frecuentes */
 main .h1-preguntas {
   text-align: center;
@@ -174,6 +156,7 @@ main .h1-preguntas {
 }
 main .preguntas-frecuentes {
   font-size: 20px;
+  text-align: center;
 }
 main h2 {
   font-size: 30px;
@@ -198,6 +181,14 @@ main .divqsomos .pqsomos {
 }
 
 /* Css Main - Contacto */
+.maincontacto {
+  padding: 30px;
+}
+
+.olcontacto {
+  list-style-type: none;
+}
+
 /* Grilla 
 
 header{
@@ -221,7 +212,7 @@ footer{
 }
 
 */
-/*Comienzo media Queri */
+/*Comienzo media Queri*/
 @media screen and (max-width: 720px) {
   .banner-principal {
     width: auto;
