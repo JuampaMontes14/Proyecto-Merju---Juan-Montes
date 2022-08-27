@@ -129,6 +129,7 @@ footer .botonirarriba img {
   margin: 15px;
   line-height: 150px;
   margin-left: 25px;
+  vertical-align: middle;
 }
 .main-productos select {
   width: 100%;
@@ -189,29 +190,6 @@ main .divqsomos .pqsomos {
   list-style-type: none;
 }
 
-/* Grilla 
-
-header{
-    grid-area: header;
-}
-
-main{
-    grid-area: cuerpo;
-}
-
-footer{
-    grid-area: footer;
-}
-
-#padre{
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: 10% 80% 10%;
-    row-gap: 10px;  
-    grid-template-areas: "header" "cuerpo" "footer";
-}
-
-*/
 /*Comienzo media Queri*/
 @media screen and (max-width: 720px) {
   .banner-principal {
@@ -293,7 +271,7 @@ footer{
     width: 80%;
   }
 }
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 540px) {
   img {
     margin: 2px;
     width: 100px;
@@ -320,13 +298,10 @@ footer{
   }
   .descripcion {
     display: grid;
-    grid-template-columns: 50%;
+    grid-template-columns: none;
   }
   .descripcion {
-    font-size: 60%;
-    height: 80%;
-    align-items: center;
-    justify-content: center;
+    font-size: 80%;
   }
   #img1 {
     width: 150px;
@@ -386,6 +361,16 @@ footer{
   }
   .texarea {
     width: 80%;
+  }
+  .lgo1 {
+    width: 20px;
+    justify-content: center;
+  }
+  .list-group {
+    background-color: burlywood;
+  }
+  .img3 {
+    width: 50%;
   }
 }
 /* Animacion y transformacion */
